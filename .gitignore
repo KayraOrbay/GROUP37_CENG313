@@ -1,0 +1,34 @@
+# Datasets and downloaded archives
+data/
+datasets/
+train_labels.csv
+train_thresholds.csv
+sample_submission.csv
+*.zip
+
+# Model weights
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.safetensors
+
+# Credentials
+.env
+.env.*
+!.env.example
+secrets/
+kaggle.json
+credentials.json
+service-account*.json
+*.pem
+*.key
+
+# Python and notebook temporary files
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
