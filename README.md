@@ -16,9 +16,9 @@
 
 ## How to Run
 
-1. Download the data from the [Kaggle Data page](https://www.kaggle.com/competitions/image-matching-challenge-2025/data). Create a `data/` folder in the repository root and put `train_labels.csv`, `train_thresholds.csv`, `sample_submission.csv` and the `train/` folder in it. The data is not committed because of Kaggle rules and file size.
+1. Download the data from the [Kaggle Data page](https://www.kaggle.com/competitions/image-matching-challenge-2025/data). Create a `data/` folder in the repository root and put `train_labels.csv`, `train_thresholds.csv`, `sample_submission.csv` and the extracted `train/` folder in it (`data/train/<dataset>/<image>`). The data is not committed because of Kaggle rules and file size.
 2. Open `assignment1_eda_baseline.ipynb` in Colab: [Open in Colab](https://colab.research.google.com/github/ceng313-2026/GROUP37_CENG313/blob/main/assignment1_eda_baseline.ipynb)
-3. Run all cells. The first cell clones the repository and installs `requirements.txt`. In Colab, the notebook downloads the images with the Kaggle API (upload your `kaggle.json` when asked).
+3. Run all cells. The first cell clones the repository and installs `requirements.txt`. If the CSV files are missing, the notebook asks you to upload them. The images must be extracted under `data/train/` before running the baseline cells.
 
 ## Scores
 
